@@ -8,4 +8,9 @@ public class Car extends Vehicle{
     public String toString() {
         return String.format("%s %s %d", brand, model, year);
     }
+    public String displayInfo() {
+        super.displayInfo();
+        return String.format("%s %s %d", brand, model, year);
+
+    }
 }
