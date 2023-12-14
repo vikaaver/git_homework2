@@ -6,4 +6,7 @@ public class Vehicle {
         this.brand = brand;
         this.year = year;
     }
+    public String displayInfo(){
+        return String.format("%s %d", brand, year);
+    }
 }
